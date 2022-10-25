@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&display=swap");
+
+/* posicionamento imagem globo.com */
+.logo_superior {
+  display: flex;
+  justify-content: center;
+  margin-top: 22px;
+}
+
+/* dimensões imagem logo globo.com */
+#logo_superior {
+  height: 36px;
+  width: 171px;
+  left: 715px;
+  top: 22px;
+}
+
+/* divisória superior g1 ge cartola globoplay */
+#barra1 {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  width: 100vw;
+  margin-top: 22px;
+}
+
+.painel1 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+#g1_painel1,
+#oglobo_painel1,
+#valor_painel1,
+#ge_painel1,
+#cartola_painel1,
+#cartola_painel1,
+#globoplay_painel1,
+#dropz_painel1,
+#gshow_painel1,
+#quem_painel1,
+#receitas_painel1 {
+  margin-top: 0px;
+  margin-bottom: 4px;
+  font-size: 19px;
+  font-weight: 700;
+  font-family: "Encode Sans";
+}
+
+/* divisória inferior g1 ge cartola globoplay */
+#barra2 {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  width: 100vw;
+}
+
+/* cores de cada opção do painel 1 */
+#g1_painel1 {
+  color: #c3170c;
+}
+
+#oglobo_painel1 {
+  color: #1e4b9b;
+}
+
+#valor_painel1 {
+  color: #006766;
+}
+
+#ge_painel1 {
+  color: #07aa47;
+}
+
+#cartola_painel1 {
+  color: #e3662b;
+}
+
+#globoplay_painel1 {
+  color: #fb0735;
+}
+
+#dropz_painel1 {
+  color: #ff75bb;
+}
+
+#gshow_painel1 {
+  color: #ec7d00;
+}
+
+#quem_painel1 {
+  color: #323333;
+}
+
+#receitas_painel1 {
+  color: #a81d83;
+}
+
+#título_principal {
+  color: #c4160c;
+  font-size: 52px;
+  font-family: "Encode Sans";
+  font-weight: 700;
+  margin-top: 34px;
+  margin-bottom: 29px;
+  margin-left: 45px;
+  width: 620px;
+}
+
+#subtítulo1 {
+  color: #303134;
+  font-size: 18px;
+  font-family: "Encode Sans";
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  margin-left: 45px;
+}
+
+#subtítulo2 {
+  color: #303134;
+  font-size: 18px;
+  font-family: "Encode Sans";
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 45px;
+}
+
+#barra3 {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  width: 50vw;              /*  */
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.parte1 {
+  width: 625px;
+  margin-right: 35px;
+}
+
+/* abre flexbox das notícias */
+.notícias_parte1 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-right: 45px;
+  margin-left: 45px;
+  margin-top: 40px;
+  width: 650px;
+}
+
+/* imagens das notícias da parte 1 */
+#laranjal,
+#tri,
+#uk {
+  border-radius: 12px;
+  width: 193px;
+  height: 110px;
+}
+
+#pré_título_notícia1,
+#pré_título_notícia2,
+#pré_título_notícia3,
+#pré_título_notícia4,
+#pré_título_notícia5,
+#pré_título_notícia6 {
+  color: #c4170c;
+  font-family: "Encode Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: left;
+  margin-top: 11px;
+  margin-bottom: 8px;
+}
+
+#título_notícia1,
+#título_notícia2,
+#título_notícia3,
+#título_notícia4,
+#título_notícia5,
+#título_notícia6 {
+  color: #2f3134;
+  font-family: "Encode Sans";
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 192px;
+}
+
+#título_notícia7,
+#título_notícia8,
+#título_notícia9,
+#título_notícia10,
+#título_notícia11,
+#título_notícia12,
+#título_notícia12 {
+  color: #2f3134;
+  font-family: "Encode Sans";
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 240px;
+}
+
+#subtítulo_notícia1,
+#subtítulo_notícia2,
+#subtítulo_notícia3,
+#subtítulo_notícia4,
+#subtítulo_notícia5,
+#subtítulo_notícia6,
+#subtítulo_notícia7,
+#subtítulo1_notícia11,
+#subtítulo2_notícia11,
+#subtítulo_notícia12 {
+  color: #2f3134;
+  font-family: "Encode Sans";
+  font-weight: normal;
+  font-size: 14px;
+  text-align: left;
+  width: 174px;
+}
+
+#barra4 {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  width: 50vw;             
+  margin-top: 36px;
+  margin-bottom: 25px;
+}
+
+#barra5 {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  width: 50vh;       
+}
+
+#spy,
+#raposa,
+#francês,
+#tralli,
+#verdades,
+#imperador {
+  width: 240px;
+  height: 128px;
+  border-radius: 12px;
+  margin-top: 50px;
+}
+
+#pré_título_notícia7,
+#pré_título_notícia8,
+#pré_título_notícia9 {
+  color: #16ae54;
+  font-family: "Encode Sans";
+  font-weight: 500;
+  font-size: 14px;
+  text-align: left;
+}
+
+#pré_título_notícia10,
+#pré_título_notícia11,
+#pré_título_notícia12 {
+  color: #ec8006;
+  font-family: "Encode Sans";
+  font-weight: 500;
+  font-size: 14px;
+  text-align: left;
+}
+
+.notícias_parte2 {
+  display: flex;
+  width: 625px;
+  margin-left: 70px;
+}
+
+.home {
+  display: flex;
+  width: 1250px;
+}
+
+.coluna1 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 45px;
+}
+
+.coluna2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.barra6 {
+  border: none;
+  border-left: 1px solid #e5e5e5 ;
+  height: 100%; 
+  margin-right: 35px;
+  margin-top: 40px;
+}
